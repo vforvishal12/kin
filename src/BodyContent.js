@@ -53,6 +53,7 @@ var place = ['Kitchen',	'Garden',	'Sofa',	'Lobby',	'Bed',	'Desk',	'Bathroom',	'P
 		
 		
              <Button variant="info" onClick={refreshPage} size="lg">Next Idea</Button>
+		<br/>
         </div>
 		);
 
