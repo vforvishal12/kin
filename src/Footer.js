@@ -15,17 +15,14 @@ function Footer(){
     </Navbar.Text>
   </Navbar.Collapse>
 
-  <Navbar.Collapse>
-    <Navbar.Text>
-      Contact Us : <a href="https://linkedin.com/in/vishal-kumar-8b9b2a190" target="_blank">+91-9073352001 </a>
-    </Navbar.Text>
-  </Navbar.Collapse>
+ 
 
-
+<Navbar.Collapse>
   
     <Navbar.Text>
       © Copyright vsaw 2020. Designed and Developed by : <a href="https://linkedin.com/in/vishal-kumar-8b9b2a190" target="_blank">Vishal Saw</a>
     </Navbar.Text>
+		 </Navbar.Collapse>
 </Navbar>
 		);
 }
