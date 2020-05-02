@@ -32,23 +32,23 @@ var place = ['Kitchen',	'Garden',	'Sofa',	'Lobby',	'Bed',	'Desk',	'Bathroom',	'P
 	return (
 		<div>
 
-		<span class="text-secondary"> Use </span>
+		<span class="text-secondary h1"> Use </span>
 
-        <span class="text-danger">{objectUse[objectUseIndex]} </span>
+        <span class="text-danger h1">{objectUse[objectUseIndex]} </span>
 
-		<span class="text-secondary"> for </span>
+		<span class="text-secondary h1"> for </span>
 
-		<span class="text-info">{bodyPart[bodyPartIndex]} </span>
+		<span class="text-info h1">{bodyPart[bodyPartIndex]} </span>
 
-        <span class="text-success">{actions[actionIndex]}</span>
+        <span class="text-success h1">{actions[actionIndex]}</span>
    
 
         
         
-        <span class="text-secondary">, in </span>
+        <span class="text-secondary h1">, in </span>
 
-        <span class="text-warning">{place[placeIndex]}</span>
-      	<span class="text-secondary">.</span>
+        <span class="text-warning h1">{place[placeIndex]}</span>
+      	<span class="text-secondary h1">.</span>
        <br/>
 		
 		
