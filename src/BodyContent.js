@@ -15,7 +15,7 @@ function refreshPage() {
 	var state={ NumberHolder : 1 };
 function BodyContent(){
 	const numbers = ['a','b','c','d'];
-var actionIndex  = Math.floor(Math.random() * 19) ;
+var actionIndex  = Math.floor(Math.random() * 18) ;
 var objectUseIndex  = Math.floor(Math.random() * 13) ;
 
 
