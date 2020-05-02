@@ -8,6 +8,10 @@ import Button from 'react-bootstrap/Button';
 
 import Card from 'react-bootstrap/Card';
 
+function refreshPage() {
+    window.location.reload(false);
+  }
+
 	var state={ NumberHolder : 1 };
 function BodyContent(){
 	const numbers = ['a','b','c','d'];
@@ -48,7 +52,7 @@ var place = ['Kitchen',	'Garden',	'Sofa',	'Lobby',	'Bed',	'Desk',	'Bathroom',	'P
        <br/>
 		
 		
-             <Button variant="info" onClick={refreshPage} size="lg">Next Drink</Button>
+             <Button variant="info" onClick={refreshPage} size="lg">Next Idea</Button>
         </div>
 		);
 
