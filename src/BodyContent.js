@@ -27,7 +27,7 @@ var objectUse = ['Dildo','Toy','Fruits','Pillow','Flower','Chocolate','Condom','
 
 var bodyPart =[  'Head',	'Face',	'Hair',	'Ear',	'Neck',	'Forehead',	'Beard',	'Eye',	'Nose',	'Mouth',	'Chin',	'Shoulder',	'Elbow',	'Arm',	'Chest',	'Armpit',	'Forearm',	'Wrist',	'Back',	'Navel',	'Toes',	'Ankle',	'Toenail',	'Waist',	'Abdomen',	'Buttock',	'Hip',	'Leg',	'Thigh',	'Knee',	'Foot',	'Hand',	'Thumb',	'Boobs',	'Dick',	'clitoris',		'Breasts',	'Vagina',	'Areola',	'Nipple'];
 
-var place = ['Kitchen',	'Garden',	'Sofa',	'Lobby',	'Bed',	'Desk',	'Bathroom',	'Parking',	'Gallery',	'Office',	'Mall',	'Cinemal Hall',	'Taxi',	'Lift',	'Riding Bike',	'Couch',	'Mirror',	'Live-Online',	'wathcing TV'];
+var place = ['Kitchen',	'Garden',	'Sofa',	'Lobby',	'Bed',	'Desk',	'Bathroom',	'Parking',	'Gallery',	'Office',	'Mall',	'Cinema Hall',	'Taxi',	'Lift',	'Riding Bike',	'Couch',	'Mirror',	'Live-Online',	'wathcing TV'];
 
 	return (
 		<div>
@@ -53,7 +53,7 @@ var place = ['Kitchen',	'Garden',	'Sofa',	'Lobby',	'Bed',	'Desk',	'Bathroom',	'P
 		
 		
              <Button variant="info" onClick={refreshPage} size="lg">Next Idea</Button>
-		<br/>
+		<br/><br/>
         </div>
 		);
 
