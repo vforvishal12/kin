@@ -15,17 +15,17 @@ function refreshPage() {
 	var state={ NumberHolder : 1 };
 function BodyContent(){
 	const numbers = ['a','b','c','d'];
-var actionIndex  = Math.floor(Math.random() * 18) ;
+var actionIndex  = Math.floor(Math.random() * 10) ;
 var objectUseIndex  = Math.floor(Math.random() * 13) ;
 
 
-var bodyPartIndex  = Math.floor(Math.random() * 40) ;
+var bodyPartIndex  = Math.floor(Math.random() * 33) ;
 var placeIndex  = Math.floor(Math.random() * 19) ;
 
 var actions = ['Massage','Kiss','Touch','Hug','Play with','Have Sex with','Rub','Lick','Suck','Fuck'];
 var objectUse = ['Dildo','Toy','Fruits','Pillow','Flower','Chocolate','Condom','Cucumber','Lubricant','Oil','Crème','Strawberry','Banana'];
 
-var bodyPart =[  'Head',	'Face',	'Hair',	'Ear',	'Neck',	'Forehead',	'Beard',	'Eye',	'Nose',	'Mouth',	'Chin',	'Shoulder',	'Elbow',	'Arm',	'Chest',	'Armpit',	'Forearm',	'Wrist',	'Back',	'Navel',	'Toes',	'Ankle',	'Toenail',	'Waist',	'Abdomen',	'Buttock',	'Hip',	'Leg',	'Thigh',	'Knee',	'Foot',	'Hand',	'Thumb',	'Boobs',	'Dick',	'clitoris',		'Breasts',	'Vagina',	'Areola',	'Nipple'];
+var bodyPart =[  'Head',	'Face',	'Hair',	'Ear',	'Neck',	'Forehead',	'Beard',	'Eye',	'Nose',	'Mouth',	'Chin',	'Shoulder',	'Elbow',	'Arm',	'Chest',	'Armpit',	'Forearm',	'Wrist',	'Back',	'Navel',		'Butt',	'Hip',	'Leg',	'Thigh',	'Foot',	'Hand',		'Boobs',	'Dick',	'clitoris',		'Breasts',	'Vagina',	'Areola',	'Nipple'];
 
 var place = ['Kitchen',	'Garden',	'Sofa',	'Lobby',	'Bed',	'Desk',	'Bathroom',	'Parking',	'Gallery',	'Office',	'Mall',	'Cinema Hall',	'Taxi',	'Lift',	'Riding Bike',	'Couch',	'Mirror',	'Live-Online',	'wathcing TV'];
 
@@ -42,7 +42,7 @@ var place = ['Kitchen',	'Garden',	'Sofa',	'Lobby',	'Bed',	'Desk',	'Bathroom',	'P
 
         <span class="text-success h1">{actions[actionIndex]} the </span>
 
-<span class="text-info h1">{bodyPart[bodyPartIndex]} </span>
+<span class="text-info h1">{bodyPart[bodyPartIndex]}</span>
 
    
 
