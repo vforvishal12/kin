@@ -22,7 +22,7 @@ var objectUseIndex  = Math.floor(Math.random() * 13) ;
 var bodyPartIndex  = Math.floor(Math.random() * 40) ;
 var placeIndex  = Math.floor(Math.random() * 19) ;
 
-var actions = ['Massage','Kiss','Touch','Hug','Play','Sex','Rub','Lick','Suck','Smell','Watch','Fuck','Ride','Swallow','Cum','Handjob','Blowjob','Squirt'];
+var actions = ['Massage','Kiss','Touch','Hug','Play with','Have Sex with','Rub','Lick','Suck','Fuck'];
 var objectUse = ['Dildo','Toy','Fruits','Pillow','Flower','Chocolate','Condom','Cucumber','Lubricant','Oil','Crème','Strawberry','Banana'];
 
 var bodyPart =[  'Head',	'Face',	'Hair',	'Ear',	'Neck',	'Forehead',	'Beard',	'Eye',	'Nose',	'Mouth',	'Chin',	'Shoulder',	'Elbow',	'Arm',	'Chest',	'Armpit',	'Forearm',	'Wrist',	'Back',	'Navel',	'Toes',	'Ankle',	'Toenail',	'Waist',	'Abdomen',	'Buttock',	'Hip',	'Leg',	'Thigh',	'Knee',	'Foot',	'Hand',	'Thumb',	'Boobs',	'Dick',	'clitoris',		'Breasts',	'Vagina',	'Areola',	'Nipple'];
@@ -36,19 +36,19 @@ var place = ['Kitchen',	'Garden',	'Sofa',	'Lobby',	'Bed',	'Desk',	'Bathroom',	'P
 
         <span class="text-danger h1">{objectUse[objectUseIndex]} </span>
 
-		<span class="text-secondary h1"> for </span>
+		<span class="text-secondary h1"> and </span>
 
-		<span class="text-info h1">{bodyPart[bodyPartIndex]} </span>
+	
 
-        <span class="text-success h1">{actions[actionIndex]}</span>
+        <span class="text-success h1">{actions[actionIndex]} the </span>
+
+<span class="text-info h1">{bodyPart[bodyPartIndex]} </span>
+
    
 
         
         
-        <span class="text-secondary h1">, in </span>
-
-        <span class="text-warning h1">{place[placeIndex]}</span>
-      	<span class="text-secondary h1">.</span>
+        <span class="text-secondary h1">.</span>
        <br/>
 		
 		
