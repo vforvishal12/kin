@@ -12,7 +12,7 @@ function Header(){
 	
 				
 				<Navbar bg="success" variant="dark" fixed="top">
-		   			 <Navbar.Brand href="#home">Kinky Sex Idea</Navbar.Brand>
+		   			 <Navbar.Brand href="#home">What is the Menu?</Navbar.Brand>
 				</Navbar>					
 
 			
