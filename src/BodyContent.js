@@ -6,15 +6,15 @@ import Button from 'react-bootstrap/Button';
 //import MyCardGroup from './MyCardGroup';
 //className="bg-light text-white"
 
-import Card from 'react-bootstrap/Card';
+
 
 function refreshPage() {
     window.location.reload(false);
   }
 
-	var state={ NumberHolder : 1 };
+	
 function BodyContent(){
-	const numbers = ['a','b','c','d'];
+	
 
 
 
