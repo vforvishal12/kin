@@ -20,6 +20,7 @@ function BodyContent(){
 
 var breakfastIndex  = Math.floor(Math.random() * 10) ;
 var mainMenuIndex  = Math.floor(Math.random() * 36) ;
+var mainDinnerMenuIndex  = Math.floor(Math.random() * 36) ;
 
 var mainMenu = ['Dal Tadka', 'Rajma Chawal', 'Aloo Gobhi', 'Chole', 'Paneer Butter Masala', 'Bhindi Masala', 'Baingan Bharta', 'Jeera Aloo', 'Kadhi Pakora', 'Palak Paneer', 'Mutter Paneer', 'Lauki Kofta', 'Aloo Matar', 'Gajar Matar', 'Tawa Sabzi', 'Methi Aloo', 'Pindi Chole', 'Stuffed Paratha', 'Aloo Baingan', 'Mix Veg', 'Dhuska', 'Fruit Salad', 'Tehri', 'Biryani', 'Pizza', 'Aaloo Paratha', 'Daal Bhaat Choka', 'Pulow', 'Chinnese', 'Crispy Chilly Baby Corn', 'Fasting', 'Dahi Bara', 'Bhindi', 'Aalo Dum', 'Aaloo Bhujiya','Idli','Doosa'];
 var breakfast = ['Poha', 'Paratha - Bhujia', 'Chilla', 'Bread Butter Jam', 'Bread Chai', 'Sandwich', 'Poori Sabzi', 'Maggie', 'Aloo Paratha', 'Dhokla', 'Pav Bhaji'];
@@ -40,7 +41,7 @@ var breakfast = ['Poha', 'Paratha - Bhujia', 'Chilla', 'Bread Butter Jam', 'Brea
 		<span class="text-secondary h1">  </span>
  <br/>
 	<span class="text-secondary h1"> Dinner </span>
-<span class="text-info h1">{mainMenu[mainMenuIndex]}</span>
+<span class="text-info h1">{mainMenu[mainDinnerMenuIndex]}</span>
 
    
 
