@@ -15,40 +15,38 @@ function refreshPage() {
 	var state={ NumberHolder : 1 };
 function BodyContent(){
 	const numbers = ['a','b','c','d'];
-var actionIndex  = Math.floor(Math.random() * 10) ;
-var objectUseIndex  = Math.floor(Math.random() * 13) ;
 
 
-var bodyPartIndex  = Math.floor(Math.random() * 33) ;
-var placeIndex  = Math.floor(Math.random() * 19) ;
 
-var actions = ['Massage','Kiss','Touch','Hug','Play with','Have Sex with','Rub','Lick','Suck','Fuck'];
-var objectUse = ['Dildo','Toy','Fruits','Pillow','Flower','Chocolate','Condom','Cucumber','Lubricant','Oil','Crème','Strawberry','Banana'];
+var breakfastIndex  = Math.floor(Math.random() * 33) ;
+var mainMenuIndex  = Math.floor(Math.random() * ) ;
 
-var bodyPart =[  'Head',	'Face',	'Hair',	'Ear',	'Neck',	'Forehead',	'Beard',	'Eye',	'Nose',	'Mouth',	'Chin',	'Shoulder',	'Elbow',	'Arm',	'Chest',	'Armpit',	'Forearm',	'Wrist',	'Back',	'Navel',		'Butt',	'Hip',	'Leg',	'Thigh',	'Foot',	'Hand',		'Boobs',	'Dick',	'clitoris',		'Breasts',	'Vagina',	'Areola',	'Nipple'];
-
-var place = ['Kitchen',	'Garden',	'Sofa',	'Lobby',	'Bed',	'Desk',	'Bathroom',	'Parking',	'Gallery',	'Office',	'Mall',	'Cinema Hall',	'Taxi',	'Lift',	'Riding Bike',	'Couch',	'Mirror',	'Live-Online',	'wathcing TV'];
+var breakfast = ['Dal Tadka', 'Rajma Chawal', 'Aloo Gobhi', 'Chole', 'Paneer Butter Masala', 'Bhindi Masala', 'Baingan Bharta', 'Jeera Aloo', 'Kadhi Pakora', 'Palak Paneer', 'Mutter Paneer', 'Lauki Kofta', 'Aloo Matar', 'Gajar Matar', 'Tawa Sabzi', 'Methi Aloo', 'Pindi Chole', 'Stuffed Paratha', 'Aloo Baingan', 'Mix Veg', 'Dhuska', 'Fruit Salad', 'Tehri', 'Biryani', 'Pizza', 'Aaloo Paratha', 'Daal Bhaat Choka', 'Pulow', 'Chinnese', 'Crispy Chilly Baby Corn', 'Fasting', 'Dahi Bara', 'Bhindi', 'Aalo Dum', 'Aaloo Bhujiya','Idli','Doosa'];
+var mainMenu = ['Poha', 'Paratha - Bhujia', 'Chilla', 'Bread Butter Jam', 'Bread Chai', 'Sandwich', 'Poori Sabzi', 'Maggie', 'Aloo Paratha', 'Dhokla', 'Pav Bhaji'];
 
 	return (
 		<div>
 
-		<span class="text-secondary h1"> Use </span>
+		<span class="text-secondary h1"> Breakfast </span>
 
-        <span class="text-danger h1">{objectUse[objectUseIndex]} </span>
+        <span class="text-danger h1">{breakfast[breakfastIndex]} </span>
 
-		<span class="text-secondary h1"> and </span>
-
+		<span class="text-secondary h1">  </span>
+ <br/>
 	
+<span class="text-secondary h1"> Lunch </span>
+        <span class="text-success h1">{mainMenu[mainMenuIndex]}  </span>
 
-        <span class="text-success h1">{actions[actionIndex]} the </span>
-
-<span class="text-info h1">{bodyPart[bodyPartIndex]}</span>
+		<span class="text-secondary h1">  </span>
+ <br/>
+	<span class="text-secondary h1"> Dinner </span>
+<span class="text-info h1">{mainMenu[mainMenuIndex]}</span>
 
    
 
         
         
-        <span class="text-secondary h1">.</span>
+        <span class="text-secondary h1"></span>
        <br/>
 		
 		
